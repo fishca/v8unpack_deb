@@ -59,7 +59,7 @@ after_build:
 
     choco pack
 
-- sh: debuild -us -uc && mv -t . ../v8unpack*.deb
+- sh: debuild -us -uc -b && mv -t . ../v8unpack*.deb
 
 artifacts:
 - path: Release\*.exe
