@@ -52,3 +52,4 @@ find_package (ZLIB REQUIRED)
 include_directories (${ZLIB_INCLUDE_DIRS})
 target_link_libraries (v8unpack ${ZLIB_LIBRARIES})
 
+install(TARGETS v8unpack DESTINATION bin)

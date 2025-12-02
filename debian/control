@@ -13,3 +13,6 @@ Package: v8unpack
 Architecture: i386 amd64
 Depends:
 Description: Enterprise 8 unpack tool
+ Utility for unpacking 1C:Enterprise 8.x file formats.
+ Supports extraction of configuration files, external reports,
+ and other 1C:Enterprise file types.
